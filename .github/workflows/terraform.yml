@@ -16,7 +16,7 @@ jobs:
   - name: Checkout code
     uses: actions/checkout@v2
   - name: Terraform Init
-     run: terraform init
+    run: terraform init
   - name: Terraform Plan
      run: terraform plan
   - name: Terraform Apply
